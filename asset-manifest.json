@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kamleshsande85/bananaTracking/static/css/main.eae10f3d.css",
+    "main.js": "/kamleshsande85/bananaTracking/static/js/main.4fb3e37c.js",
+    "static/js/453.15e811b2.chunk.js": "/kamleshsande85/bananaTracking/static/js/453.15e811b2.chunk.js",
+    "static/media/banana.jpg": "/kamleshsande85/bananaTracking/static/media/banana.cc7decbb2b17d5652dd6.jpg",
+    "index.html": "/kamleshsande85/bananaTracking/index.html",
+    "main.eae10f3d.css.map": "/kamleshsande85/bananaTracking/static/css/main.eae10f3d.css.map",
+    "main.4fb3e37c.js.map": "/kamleshsande85/bananaTracking/static/js/main.4fb3e37c.js.map",
+    "453.15e811b2.chunk.js.map": "/kamleshsande85/bananaTracking/static/js/453.15e811b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eae10f3d.css",
+    "static/js/main.4fb3e37c.js"
+  ]
+}
