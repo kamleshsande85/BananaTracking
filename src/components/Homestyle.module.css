@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: #FFC107;
+    font-size: 2 rem;
+
+    /* color: #ffffff;   */
+}
+
+/* .header div{
+    margin-top: 2%;
+} */
+
+.hero {
+    width: 100%;
+    height: 80%;
+    background-color: #ffffff;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: #FFC107;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("/public/images/banana.jpg");
+
+    background-size: cover;
+    /* Image ko poora area cover karne ke liye */
+    background-position: center;
+    /* Image ko beech me rakhne ke liye */
+    background-repeat: no-repeat;
+    /* Image repeat na ho */
+}
+
+.box {
+    width: 30%;
+    height: 30%;
+    background-color: #128ddf;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* color: #ffffff; */
+}
+
+.count {
+    /* background-color: #5be709; */
+    font-size: 7rem;
+    color: #ffffff;
+
+
+
+}
+
+.box2 {
+    background-color: #e70909;
+}
+
+/* Mobile ke liye (max-width: 480px tak) */
+@media (max-width: 480px) {
+    .box {
+        width: 40%;
+        height: 30%;
+        /* border-radius: 10%; */
+        /* font-size: 2rem; */
+    }
+
+    .header {
+        font-size: 2rem;
+
+    }
+
+    .footer button {
+        margin-top: 5.5%;
+        width: 30%;
+        height: 44%;
+    }
+}
+
+.footer button {
+    background: #0a48db;
+    width: 20%;
+    height: 44%;
+    color: #fff;
+    font-size: larger;
+    margin-top: 2%;
+    cursor:pointer ;
+
+}
+
+/* .hero p:first-child {
+    color: #ffffff;
+} */
